@@ -3,8 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://jhemberger.github.io/categories/</loc>
+    <lastmod>2020-02-18T15:49:03-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jhemberger.github.io/tags/dry-run/</loc>
+    <lastmod>2020-02-18T15:49:03-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jhemberger.github.io/categories/dry-run/</loc>
+    <lastmod>2020-02-18T15:49:03-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jhemberger.github.io/</loc>
-    <lastmod>2020-02-14T11:08:17-08:00</lastmod>
+    <lastmod>2020-02-18T15:49:03-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jhemberger.github.io/posts/02_18_20/</loc>
+    <lastmod>2020-02-18T15:49:03-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jhemberger.github.io/posts/</loc>
+    <lastmod>2020-02-18T15:49:03-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jhemberger.github.io/tags/</loc>
+    <lastmod>2020-02-18T15:49:03-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jhemberger.github.io/tags/test/</loc>
+    <lastmod>2020-02-18T15:49:03-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jhemberger.github.io/categories/test/</loc>
+    <lastmod>2020-02-18T15:49:03-08:00</lastmod>
   </url>
   
   <url>
@@ -30,19 +70,6 @@
   <url>
     <loc>https://jhemberger.github.io/posts/my-first-post/</loc>
     <lastmod>2020-02-13T15:43:51-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jhemberger.github.io/posts/</loc>
-    <lastmod>2020-02-13T15:43:51-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jhemberger.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://jhemberger.github.io/tags/</loc>
   </url>
   
 </urlset>

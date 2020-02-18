@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Test on Jeremy Hemberger</title>
+    <link>https://jhemberger.github.io/categories/test/</link>
+    <description>Recent content in Test on Jeremy Hemberger</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Feb 2020 15:49:03 -0800</lastBuildDate>
+    
+	<atom:link href="https://jhemberger.github.io/categories/test/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My title</title>
+      <link>https://jhemberger.github.io/posts/02_18_20/</link>
+      <pubDate>Tue, 18 Feb 2020 15:49:03 -0800</pubDate>
+      
+      <guid>https://jhemberger.github.io/posts/02_18_20/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

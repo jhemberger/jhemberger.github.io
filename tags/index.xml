@@ -6,9 +6,28 @@
     <description>Recent content in Tags on Jeremy Hemberger</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 18 Feb 2020 15:49:03 -0800</lastBuildDate>
     
 	<atom:link href="https://jhemberger.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Dry-run</title>
+      <link>https://jhemberger.github.io/tags/dry-run/</link>
+      <pubDate>Tue, 18 Feb 2020 15:49:03 -0800</pubDate>
+      
+      <guid>https://jhemberger.github.io/tags/dry-run/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>https://jhemberger.github.io/tags/test/</link>
+      <pubDate>Tue, 18 Feb 2020 15:49:03 -0800</pubDate>
+      
+      <guid>https://jhemberger.github.io/tags/test/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
