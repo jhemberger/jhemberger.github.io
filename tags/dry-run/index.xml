@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dry-run on Jeremy Hemberger</title>
-    <link>https://jhemberger.github.io/tags/dry-run/</link>
+    <link>/tags/dry-run/</link>
     <description>Recent content in Dry-run on Jeremy Hemberger</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 18 Feb 2020 15:49:03 -0800</lastBuildDate>
     
-	<atom:link href="https://jhemberger.github.io/tags/dry-run/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/dry-run/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>My title</title>
-      <link>https://jhemberger.github.io/posts/posts/my_title/</link>
+      <link>/posts/posts/my_title/</link>
       <pubDate>Tue, 18 Feb 2020 15:49:03 -0800</pubDate>
       
-      <guid>https://jhemberger.github.io/posts/posts/my_title/</guid>
+      <guid>/posts/posts/my_title/</guid>
       <description></description>
     </item>
     

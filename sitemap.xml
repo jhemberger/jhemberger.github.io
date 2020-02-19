@@ -3,72 +3,77 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://jhemberger.github.io/categories/</loc>
+    <loc>/in_progress/</loc>
+    <lastmod>2020-02-19T09:49:04-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-02-19T09:49:04-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
     <lastmod>2020-02-18T15:49:03-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jhemberger.github.io/tags/dry-run/</loc>
+    <loc>/categories/dry-run/</loc>
     <lastmod>2020-02-18T15:49:03-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jhemberger.github.io/categories/dry-run/</loc>
+    <loc>/tags/dry-run/</loc>
     <lastmod>2020-02-18T15:49:03-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jhemberger.github.io/</loc>
+    <loc>/posts/posts/my_title/</loc>
     <lastmod>2020-02-18T15:49:03-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jhemberger.github.io/posts/posts/my_title/</loc>
+    <loc>/posts/</loc>
     <lastmod>2020-02-18T15:49:03-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jhemberger.github.io/posts/</loc>
+    <loc>/tags/</loc>
     <lastmod>2020-02-18T15:49:03-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jhemberger.github.io/tags/</loc>
+    <loc>/categories/test/</loc>
     <lastmod>2020-02-18T15:49:03-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jhemberger.github.io/tags/test/</loc>
+    <loc>/tags/test/</loc>
     <lastmod>2020-02-18T15:49:03-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jhemberger.github.io/categories/test/</loc>
-    <lastmod>2020-02-18T15:49:03-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jhemberger.github.io/publications/</loc>
+    <loc>/publications/</loc>
     <lastmod>2020-02-14T11:08:17-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jhemberger.github.io/graphic_art/</loc>
+    <loc>/graphic_art/</loc>
     <lastmod>2020-02-14T11:08:10-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jhemberger.github.io/projects/</loc>
+    <loc>/projects/</loc>
     <lastmod>2020-02-14T11:08:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jhemberger.github.io/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2020-02-14T09:55:09-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jhemberger.github.io/posts/my-first-post/</loc>
+    <loc>/posts/my-first-post/</loc>
     <lastmod>2020-02-13T15:43:51-08:00</lastmod>
   </url>
   

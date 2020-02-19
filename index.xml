@@ -2,70 +2,79 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jeremy Hemberger</title>
-    <link>https://jhemberger.github.io/</link>
+    <link>/</link>
     <description>Recent content on Jeremy Hemberger</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Feb 2020 15:49:03 -0800</lastBuildDate>
+    <lastBuildDate>Wed, 19 Feb 2020 09:49:04 -0800</lastBuildDate>
     
-	<atom:link href="https://jhemberger.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title></title>
+      <link>/in_progress/</link>
+      <pubDate>Wed, 19 Feb 2020 09:49:04 -0800</pubDate>
+      
+      <guid>/in_progress/</guid>
+      <description>This page is under construction. Please check back, soon! </description>
+    </item>
+    
+    <item>
       <title>My title</title>
-      <link>https://jhemberger.github.io/posts/posts/my_title/</link>
+      <link>/posts/posts/my_title/</link>
       <pubDate>Tue, 18 Feb 2020 15:49:03 -0800</pubDate>
       
-      <guid>https://jhemberger.github.io/posts/posts/my_title/</guid>
+      <guid>/posts/posts/my_title/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Publications</title>
-      <link>https://jhemberger.github.io/publications/</link>
+      <link>/publications/</link>
       <pubDate>Fri, 14 Feb 2020 11:08:17 -0800</pubDate>
       
-      <guid>https://jhemberger.github.io/publications/</guid>
+      <guid>/publications/</guid>
       <description>Peer-reviewed publications For a more up-to-date list, please visit my Google Scholar profile.
-Hemberger, J., Frappa, A., Witynski, G., Gratton, C. Saved by the pulse? Separating the effects of total and temporal food abundance on the growth and reproduction of bumble bee microcolonies. in revision Basic and Applied Ecology
-Hemberger, C. Gratton, Floral resource pulse decreases bumble bee foraging trip duration in central Wisconsin agroecosystem. Ecol. Entomol. 43, 447–457 (2018). 10.</description>
+   Hemberger, J., Frappa, A., Witynski, G., Gratton, C. Saved by the pulse? Separating the effects of total and temporal food abundance on the growth and reproduction of bumble bee microcolonies. In revision
+  Hemberger, C. Gratton, Floral resource pulse decreases bumble bee foraging trip duration in central Wisconsin agroecosystem. Ecol. Entomol. 43, 447–457 (2018).</description>
     </item>
     
     <item>
       <title>Graphic art</title>
-      <link>https://jhemberger.github.io/graphic_art/</link>
+      <link>/graphic_art/</link>
       <pubDate>Fri, 14 Feb 2020 11:08:10 -0800</pubDate>
       
-      <guid>https://jhemberger.github.io/graphic_art/</guid>
+      <guid>/graphic_art/</guid>
       <description>Designing captivating, informative, and beautiful scientific presentations became a passion of mine during graduate school. When attending professional meetings, I quickly noticed the presentation styles that captured my attention and those that fell short. For me, how the information is conveyed visually is just as important the verbal or written delivery.</description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>https://jhemberger.github.io/projects/</link>
+      <link>/projects/</link>
       <pubDate>Fri, 14 Feb 2020 11:08:01 -0800</pubDate>
       
-      <guid>https://jhemberger.github.io/projects/</guid>
+      <guid>/projects/</guid>
       <description>Below you&amp;rsquo;ll find a brief snapshot of my current and past projects, including collaborative work with colleagues near and far.
   | Can bumble bees take the heat? Postdoctoral research | University of California Davis  | A tale of two (groups of) bees: why are some midwestern bumble bees struggling while others thrive? PhD Dissertation Research | University of Wisconsin-Madison Bumble bees are one of the most important groups of pollinating insects across the Bumble bees are one of the most important groups of pollinating insects across the Bumble bees are one of the most important groups of pollinating insects across the Bumble bees are one of the most important groups of pollinating insects across the Bumble bees are one of the most important groups of pollinating insects across the Bumble bees are one of the most important groups of pollinating insects across the Bumble bees are one of the most important groups of pollinating insects across the.</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://jhemberger.github.io/about/</link>
+      <link>/about/</link>
       <pubDate>Fri, 14 Feb 2020 09:55:09 -0800</pubDate>
       
-      <guid>https://jhemberger.github.io/about/</guid>
+      <guid>/about/</guid>
       <description>I am a bumble bee ecologist interested in how anthropogenic changes to the landscape and environment (e.g., agriculture and climate change) impact bumble bee behavior, colony growth and reproduction, and populations and communities. Currently, I am a postdoctoral researcher stationed at UC-Davis where I work with Neal Williams on bumble bee responses to heatwaves.
 I recently completed my PhD with Claudio Gratton at the University of Wisconsin-Madison where I sought to develop an understanding of how common species such as the common eastern bumble bee (Bombus impatiens) cope with variable floral abundance brought about by agroecosystem management (e.</description>
     </item>
     
     <item>
       <title>My First Post</title>
-      <link>https://jhemberger.github.io/posts/my-first-post/</link>
+      <link>/posts/my-first-post/</link>
       <pubDate>Thu, 13 Feb 2020 15:43:51 -0800</pubDate>
       
-      <guid>https://jhemberger.github.io/posts/my-first-post/</guid>
+      <guid>/posts/my-first-post/</guid>
       <description>A great new website is coming your way!</description>
     </item>
     
