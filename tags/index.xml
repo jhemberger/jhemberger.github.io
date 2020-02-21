@@ -12,20 +12,11 @@
     
     
     <item>
-      <title>Dry-run</title>
-      <link>/tags/dry-run/</link>
+      <title>Welcome</title>
+      <link>/tags/welcome/</link>
       <pubDate>Tue, 18 Feb 2020 15:49:03 -0800</pubDate>
       
-      <guid>/tags/dry-run/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Test</title>
-      <link>/tags/test/</link>
-      <pubDate>Tue, 18 Feb 2020 15:49:03 -0800</pubDate>
-      
-      <guid>/tags/test/</guid>
+      <guid>/tags/welcome/</guid>
       <description></description>
     </item>
     

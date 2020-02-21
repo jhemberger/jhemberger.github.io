@@ -30,12 +30,12 @@
     </item>
     
     <item>
-      <title>My title</title>
-      <link>/posts/posts/my_title/</link>
+      <title>Welcome to the new digs!</title>
+      <link>/posts/posts/welcome/</link>
       <pubDate>Tue, 18 Feb 2020 15:49:03 -0800</pubDate>
       
-      <guid>/posts/posts/my_title/</guid>
-      <description></description>
+      <guid>/posts/posts/welcome/</guid>
+      <description>Hello! Welcome to my newly deployed website. It&amp;rsquo;s long been a project on my to-do list to migrate from Wordpress to something a bit less clunky, more simple, and that would help me learn more about coding for the web. I finally gathered (read: made) the time to sit down and write some code and deploy this new site via Hugo. In fact, I think I&amp;rsquo;ll make this endeavor the topic of a soon-to-be-written blog post.</description>
     </item>
     
     <item>
@@ -65,7 +65,7 @@
       
       <guid>/projects/</guid>
       <description>Below you&amp;rsquo;ll find a brief snapshot of my current and past projects, including collaborative work with colleagues near and far.
-  | A tale of two (groups of) bees: why are some midwestern bumble bees struggling while others thrive? PhD Dissertation Research | University of Wisconsin-Madison Bumble bees are one of the most important groups of pollinating insects across the Bumble bees are one of the most important groups of pollinating insects across the Bumble bees are one of the most important groups of pollinating insects across the Bumble bees are one of the most important groups of pollinating insects across the Bumble bees are one of the most important groups of pollinating insects across the Bumble bees are one of the most important groups of pollinating insects across the Bumble bees are one of the most important groups of pollinating insects across the.</description>
+  | A tale of two (groups of) bees: why are some midwestern bumble bees struggling while others thrive? PhD Dissertation Research | University of Wisconsin-Madison Recently, a number of high profile studies on the status of bumble bees have sounded alarms among ecologists, entomologists, and the public writ large.</description>
     </item>
     
     <item>
@@ -76,15 +76,6 @@
       <guid>/about/</guid>
       <description>I am a bumble bee ecologist interested in how anthropogenic changes to the landscape and environment (e.g., agriculture and climate change) impact bumble bee behavior, colony growth and reproduction, and populations and communities. Currently, I am a postdoctoral researcher stationed at UC-Davis where I work with Neal Williams on bumble bee responses to heatwaves.
 I recently completed my PhD with Claudio Gratton at the University of Wisconsin-Madison where I sought to develop an understanding of how common species such as the common eastern bumble bee (Bombus impatiens) cope with variable floral abundance brought about by agroecosystem management (e.</description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>/posts/my-first-post/</link>
-      <pubDate>Thu, 13 Feb 2020 15:43:51 -0800</pubDate>
-      
-      <guid>/posts/my-first-post/</guid>
-      <description>A great new website is coming your way!</description>
     </item>
     
   </channel>

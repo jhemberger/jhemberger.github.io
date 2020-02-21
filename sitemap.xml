@@ -23,17 +23,7 @@
   </url>
   
   <url>
-    <loc>/categories/dry-run/</loc>
-    <lastmod>2020-02-18T15:49:03-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/dry-run/</loc>
-    <lastmod>2020-02-18T15:49:03-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/posts/my_title/</loc>
+    <loc>/categories/general/</loc>
     <lastmod>2020-02-18T15:49:03-08:00</lastmod>
   </url>
   
@@ -48,12 +38,17 @@
   </url>
   
   <url>
-    <loc>/categories/test/</loc>
+    <loc>/categories/update/</loc>
     <lastmod>2020-02-18T15:49:03-08:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/test/</loc>
+    <loc>/tags/welcome/</loc>
+    <lastmod>2020-02-18T15:49:03-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/posts/welcome/</loc>
     <lastmod>2020-02-18T15:49:03-08:00</lastmod>
   </url>
   
@@ -75,11 +70,6 @@
   <url>
     <loc>/about/</loc>
     <lastmod>2020-02-14T09:55:09-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/my-first-post/</loc>
-    <lastmod>2020-02-13T15:43:51-08:00</lastmod>
   </url>
   
 </urlset>
