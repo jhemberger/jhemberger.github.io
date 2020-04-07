@@ -6,10 +6,28 @@
     <description>Recent content in Categories on Jeremy Hemberger</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Feb 2020 15:49:03 -0800</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2020 16:05:56 -0700</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tutorial</title>
+      <link>/categories/tutorial/</link>
+      <pubDate>Mon, 06 Apr 2020 16:05:56 -0700</pubDate>
+      
+      <guid>/categories/tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Website</title>
+      <link>/categories/website/</link>
+      <pubDate>Mon, 06 Apr 2020 16:05:56 -0700</pubDate>
+      
+      <guid>/categories/website/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>General</title>

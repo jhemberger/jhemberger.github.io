@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Jeremy Hemberger</title>
-    <link>/posts/</link>
-    <description>Recent content in Posts on Jeremy Hemberger</description>
+    <title>Atom on Jeremy Hemberger</title>
+    <link>/tags/atom/</link>
+    <description>Recent content in Atom on Jeremy Hemberger</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 06 Apr 2020 16:05:56 -0700</lastBuildDate>
     
-	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/atom/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>/posts/posts/building-a-hugo-website/</guid>
       <description>If your situation is at all similar to mine right now, the COVID pandemic has greatly impacted day-to-day research operations and probably has had an impact on your productivity. Many of the tasks I queued up are now pushed way back, and there is a void of time that needs filling - preferably with something other than Netflix and binge-snacking&amp;hellip;</description>
-    </item>
-    
-    <item>
-      <title>Welcome to the new digs!</title>
-      <link>/posts/posts/welcome/</link>
-      <pubDate>Tue, 18 Feb 2020 15:49:03 -0800</pubDate>
-      
-      <guid>/posts/posts/welcome/</guid>
-      <description>Hello! Welcome to my newly deployed website. It&amp;rsquo;s long been a project on my to-do list to migrate from Wordpress to something a bit less clunky, more simple, and that would help me learn more about coding for the web. I finally gathered (read: made) the time to sit down and write some code and deploy this new site via Hugo. In fact, I think I&amp;rsquo;ll make this endeavor the topic of a soon-to-be-written blog post.</description>
     </item>
     
   </channel>
