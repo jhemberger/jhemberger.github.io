@@ -6,10 +6,19 @@
     <description>Recent content on Jeremy Hemberger</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Apr 2020 16:05:56 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2020 14:05:56 -0700</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bumble bee experiments in lockdown</title>
+      <link>/posts/posts/macgyver-bumblebee-experiments/</link>
+      <pubDate>Thu, 09 Apr 2020 14:05:56 -0700</pubDate>
+      
+      <guid>/posts/posts/macgyver-bumblebee-experiments/</guid>
+      <description>The chaos brought about by the global coronavirus pandemic has not only claimed lives, it has disrupted experiments in labs across the world. Many folks have been forced to scrap entire experiments, field seasons, and I&amp;rsquo;m sure, pursuit of their degree*. This sucks a lot, but it is a necessary step to ensure we reduce COVID spread and flatten the curve.</description>
+    </item>
     
     <item>
       <title>Building a website using Github pages and Hugo</title>

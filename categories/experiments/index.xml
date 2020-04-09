@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Experiments on Jeremy Hemberger</title>
+    <link>/categories/experiments/</link>
+    <description>Recent content in Experiments on Jeremy Hemberger</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 Apr 2020 14:05:56 -0700</lastBuildDate>
+    
+	<atom:link href="/categories/experiments/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bumble bee experiments in lockdown</title>
+      <link>/posts/posts/macgyver-bumblebee-experiments/</link>
+      <pubDate>Thu, 09 Apr 2020 14:05:56 -0700</pubDate>
+      
+      <guid>/posts/posts/macgyver-bumblebee-experiments/</guid>
+      <description>The chaos brought about by the global coronavirus pandemic has not only claimed lives, it has disrupted experiments in labs across the world. Many folks have been forced to scrap entire experiments, field seasons, and I&amp;rsquo;m sure, pursuit of their degree*. This sucks a lot, but it is a necessary step to ensure we reduce COVID spread and flatten the curve.</description>
+    </item>
+    
+  </channel>
+</rss>

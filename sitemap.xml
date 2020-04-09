@@ -3,6 +3,56 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/categories/bumble-bee/</loc>
+    <lastmod>2020-04-09T14:05:56-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/posts/macgyver-bumblebee-experiments/</loc>
+    <lastmod>2020-04-09T14:05:56-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2020-04-09T14:05:56-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/covid/</loc>
+    <lastmod>2020-04-09T14:05:56-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/experiments/</loc>
+    <lastmod>2020-04-09T14:05:56-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-04-09T14:05:56-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2020-04-09T14:05:56-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/rearing/</loc>
+    <lastmod>2020-04-09T14:05:56-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/rigs/</loc>
+    <lastmod>2020-04-09T14:05:56-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-04-09T14:05:56-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/atom/</loc>
     <lastmod>2020-04-06T16:05:56-07:00</lastmod>
   </url>
@@ -13,32 +63,12 @@
   </url>
   
   <url>
-    <loc>/categories/</loc>
-    <lastmod>2020-04-06T16:05:56-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/hugo/</loc>
     <lastmod>2020-04-06T16:05:56-07:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2020-04-06T16:05:56-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/</loc>
-    <lastmod>2020-04-06T16:05:56-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/shell/</loc>
-    <lastmod>2020-04-06T16:05:56-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2020-04-06T16:05:56-07:00</lastmod>
   </url>
   
