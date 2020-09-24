@@ -248,30 +248,30 @@
 <p><a href="https://rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf">https://rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf</a></p>
 <p>First, create your manuscript RMarkdown document in your R project by selecting &ldquo;File -&gt; New File -&gt; RMarkdown.&rdquo; Before you edit anything, save it immediately to your manuscripts folder, whatever that may be called (in my case, <code>ms_body</code>). You can enter a file title and your name as the author, and select PDF as the default output format. Don&rsquo;t worry, all of this can be changed later.</p>
 <p>When you create this, the first thing that pops up is a RMarkdown template file:</p>
-<p><img src="/images/09_25_20/rmd_template.png#center" alt="template"></p>
+<p><img src="/images/09_24_20/rmd_template.png#center" alt=""></p>
 <p>This file shows you generally how you can structure an RMarkdown file. We can get rid of all of this except the top portion that is delimited by three dashes (&mdash;). This section is called the YAML (Yet another markup language) header.</p>
 <h2 id="whats-in-your-yaml">What&rsquo;s in your YAML?</h2>
 <p>Generally, the YAML header contains a bunch of settings to help control how your finished product is rendered, where your bibliography file lives, what citation style you&rsquo;re using, etc., etc. Below is the header from one of my current manuscripts.</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">---
-title: |
-  **Patterns of agricultural intensification drive bumble bee occurrence in the North American Midwest**
-author:
+<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">---
+<span style="color:#719e07">title</span>: <span style="color:#2aa198">|
+</span><span style="color:#2aa198"> </span><span style="color:#2aa198"> </span><span style="color:#2aa198">**Patterns of agricultural intensification drive bumble bee occurrence in the North American Midwest**</span>
+<span style="color:#719e07">author</span>:
 - Jeremy Hemberger
 - Michael Crossley
 - Claudio Gratton
-date: &#34;`r format(Sys.time(), &#39;%B %d, %Y&#39;)`&#34;
-output:
-  word_document: default
-  pdf_document:
-    fig_caption: yes
-    keep_tex: yes
-    latex_engine: pdflatex
-  html_document:
-    df_print: paged
-fontfamily: mathpazo
-fontsize: 11pt
-geometry: margin = 1in
-header-includes:
+<span style="color:#719e07">date</span>: <span style="color:#2aa198">&#34;`r format(Sys.time(), &#39;%B %d, %Y&#39;)`&#34;</span>
+<span style="color:#719e07">output</span>:
+  <span style="color:#719e07">word_document</span>: default
+  <span style="color:#719e07">pdf_document</span>:
+    <span style="color:#719e07">fig_caption</span>: yes
+    <span style="color:#719e07">keep_tex</span>: yes
+    <span style="color:#719e07">latex_engine</span>: pdflatex
+  <span style="color:#719e07">html_document</span>:
+    <span style="color:#719e07">df_print</span>: paged
+<span style="color:#719e07">fontfamily</span>: mathpazo
+<span style="color:#719e07">fontsize</span>: 11pt
+<span style="color:#719e07">geometry</span>: margin = 1in
+<span style="color:#719e07">header-includes</span>:
 - \usepackage{setspace}\doublespacing
 - \usepackage[left]{lineno}
 - \linenumbers
@@ -281,11 +281,11 @@ header-includes:
 - \usepackage{afterpage}
 - \usepackage{siunitx}
 - \usepackage{amsmath}
-keywords: Agricultural intensification, Bumble bees, bee decline, agroecosystems
-bibliography: ./library.bib
-csl: ./nature-conservation.csl
-abstract: |
-  Recently documented insect declines suggest that agricultural expansion and productivity-focused intensification are a putative driver for the observed declines. However, this hypothesis has yet to be formally tested due to a lack of historical data on agricultural land-use change and insect taxa. Using large, spatiotemporal sets of bumble bee and agricultural records, we show that agricultural intensification, specifically an increase cropland extent and insecticides, as well as a decrease in crop richness and perennial habitat, are associated with a decrease in the occurrence of bumble bee species in the agriculturally intensive Midwest. Yet, we found positive associations between bumble bees and crop richness and pasture, even in areas where agriculture is spatially extensive. Our findings suggest that insect conservation and agricultural production may be compatible, with increasing in on-farm and landscape-level crop diversity, pasture, and reduction in insecticides predicted to have positive effects on bumble bees.
+<span style="color:#719e07">keywords</span>: Agricultural intensification, Bumble bees, bee decline, agroecosystems
+<span style="color:#719e07">bibliography</span>: ./library.bib
+<span style="color:#719e07">csl</span>: ./nature-conservation.csl
+<span style="color:#719e07">abstract</span>: <span style="color:#2aa198">|
+</span><span style="color:#2aa198"> </span><span style="color:#2aa198"> </span><span style="color:#2aa198">Recently documented insect declines suggest that agricultural expansion and productivity-focused intensification are a putative driver for the observed declines. However, this hypothesis has yet to be formally tested due to a lack of historical data on agricultural land-use change and insect taxa. Using large, spatiotemporal sets of bumble bee and agricultural records, we show that agricultural intensification, specifically an increase cropland extent and insecticides, as well as a decrease in crop richness and perennial habitat, are associated with a decrease in the occurrence of bumble bee species in the agriculturally intensive Midwest. Yet, we found positive associations between bumble bees and crop richness and pasture, even in areas where agriculture is spatially extensive. Our findings suggest that insect conservation and agricultural production may be compatible, with increasing in on-farm and landscape-level crop diversity, pasture, and reduction in insecticides predicted to have positive effects on bumble bees.</span>
 ---
 </code></pre></div><p>In this, I am telling R a bunch of information including:</p>
 <ul>
