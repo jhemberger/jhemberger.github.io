@@ -6,10 +6,20 @@
     <description>Recent content on Jeremy Hemberger</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Sep 2020 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2020 10:30:24 -0800</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SciComm</title>
+      <link>/scicomm/</link>
+      <pubDate>Sun, 08 Nov 2020 10:30:24 -0800</pubDate>
+      
+      <guid>/scicomm/</guid>
+      <description>I am extremely passionate about how we as scientists communicate our work to our colleagues, stakeholders, friends, family, and everyone else. Throughout my research career, I have striven make my presentations and public-facing content engaging, easy to understand, and clear. For some examples, please see the videos below.
+Research Talks Outreach Talks         </description>
+    </item>
     
     <item>
       <title>Writing your manuscript in R Markdown</title>
