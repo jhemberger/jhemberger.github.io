@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jeremy Hemberger</title>
+    <link>/</link>
+    <description>Recent content on Jeremy Hemberger</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Nov 2020 10:30:24 -0800</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Science Communication</title>
+      <link>/scicomm/</link>
+      <pubDate>Sun, 08 Nov 2020 10:30:24 -0800</pubDate>
+      
+      <guid>/scicomm/</guid>
+      <description>I am extremely passionate about how we as scientists communicate our work to our colleagues, stakeholders, friends, family, and members of the public. Throughout my research career, I have striven make my presentations and public-facing content engaging, easy to understand, and clear. For some examples, please see the videos below.
+Research talks   Outreach and media coverage         </description>
+    </item>
+    
+    <item>
+      <title>Writing your manuscript in R Markdown</title>
+      <link>/posts/posts/r-markdown-manuscripts/</link>
+      <pubDate>Thu, 24 Sep 2020 00:00:00 -0700</pubDate>
+      
+      <guid>/posts/posts/r-markdown-manuscripts/</guid>
+      <description>I really don&amp;rsquo;t like the Microsoft Office Suite. With the exception of PowerPoint (which I can almost always get to do what I want), the remainder of the suite, especially Word and Excel (NO, THAT COLUMN IS NOT A DATE, and even if it is, DO NOT REFORMAT IT), can be quite frustrating to work with.</description>
+    </item>
+    
+    <item>
+      <title>Bumble bee experiments in lockdown</title>
+      <link>/posts/posts/macgyver-bumblebee-experiments/</link>
+      <pubDate>Thu, 09 Apr 2020 14:05:56 -0700</pubDate>
+      
+      <guid>/posts/posts/macgyver-bumblebee-experiments/</guid>
+      <description>The chaos brought about by the global coronavirus pandemic has not only claimed lives, it has disrupted experiments in labs across the world. Many folks have been forced to scrap entire experiments, field seasons, and I&amp;rsquo;m sure, pursuit of their degree*. This sucks a lot, but it is a necessary step to ensure we reduce COVID spread and flatten the curve.</description>
+    </item>
+    
+    <item>
+      <title>Building a website using Github pages and Hugo</title>
+      <link>/posts/posts/building-a-hugo-website/</link>
+      <pubDate>Mon, 06 Apr 2020 16:05:56 -0700</pubDate>
+      
+      <guid>/posts/posts/building-a-hugo-website/</guid>
+      <description>If your situation is at all similar to mine right now, the COVID pandemic has greatly impacted day-to-day research operations and probably has had an impact on your productivity. Many of the tasks I queued up are now pushed way back, and there is a void of time that needs filling - preferably with something other than Netflix and binge-snacking&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/in_progress/</link>
+      <pubDate>Wed, 19 Feb 2020 09:49:04 -0800</pubDate>
+      
+      <guid>/in_progress/</guid>
+      <description>This page is under construction. Please check back, soon! </description>
+    </item>
+    
+    <item>
+      <title>Photography</title>
+      <link>/photography/</link>
+      <pubDate>Wed, 19 Feb 2020 09:49:04 -0800</pubDate>
+      
+      <guid>/photography/</guid>
+      <description>I&amp;rsquo;ve always loved images. When I was young, I obsessed over the almost magical photo quality of my Dad&amp;rsquo;s old ViewMaster, intricate drawings of WW2 planes, and the bustling city scenes of my favorite childhood author, Richard Scary. This I think naturally led to an interest in making images, and I started snapping photos when I was still wearing footie pajamas.</description>
+    </item>
+    
+    <item>
+      <title>Welcome to the new digs!</title>
+      <link>/posts/posts/welcome/</link>
+      <pubDate>Tue, 18 Feb 2020 15:49:03 -0800</pubDate>
+      
+      <guid>/posts/posts/welcome/</guid>
+      <description>Hello! Welcome to my newly deployed website. It&amp;rsquo;s long been a project on my to-do list to migrate from Wordpress to something a bit less clunky, more simple, and that would help me learn more about coding for the web. I finally gathered (read: made) the time to sit down and write some code and deploy this new site via Hugo. In fact, I think I&amp;rsquo;ll make this endeavor the topic of a soon-to-be-written blog post.</description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>/publications/</link>
+      <pubDate>Fri, 14 Feb 2020 11:08:17 -0800</pubDate>
+      
+      <guid>/publications/</guid>
+      <description>Peer-reviewed publications For a more up-to-date list, please visit my Google Scholar profile.
+  Mola, J.M., Hemberger, J., Kochanski, J., Richardson, L.L., Pearse, I. The importance of forests in bumble bee biology and conservation. In review.
+ Page, M.L., Nicholson, C.C., Brennan, R., Britzman, A., Hemberger, J., Greer, J., Kahl, H., Müller, U, Peng, Y., Rosenberger, N, Stuligross, C., Wang, L., Yang, L., Williams, N.M. A meta-analysis of single-visit pollinator effectiveness.</description>
+    </item>
+    
+    <item>
+      <title>Buy me a coffee</title>
+      <link>/buy-jeremy-a-coffee/</link>
+      <pubDate>Fri, 14 Feb 2020 11:08:10 -0800</pubDate>
+      
+      <guid>/buy-jeremy-a-coffee/</guid>
+      <description>Have you found my posts useful in your own work? Have you used my images in your presentations? Are my bee icons floating about on your powerpoint slide or in your own figures?
+If any of the above or true, I&amp;rsquo;m so happy I could be helpful! Please consider buying me a coffee to help keep the content flowing your way.</description>
+    </item>
+    
+    <item>
+      <title>Graphic art</title>
+      <link>/graphic_art/</link>
+      <pubDate>Fri, 14 Feb 2020 11:08:10 -0800</pubDate>
+      
+      <guid>/graphic_art/</guid>
+      <description>Designing captivating, informative, and beautiful scientific presentations became a passion of mine during graduate school. When attending professional meetings, I quickly noticed the presentation styles that captured my attention and those that fell short. For me, how the information is conveyed visually is just as important the verbal or written delivery.</description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>/research/</link>
+      <pubDate>Fri, 14 Feb 2020 11:08:01 -0800</pubDate>
+      
+      <guid>/research/</guid>
+      <description>Below you&amp;rsquo;ll find a brief snapshot of my current and past projects, including collaborative work with colleagues near and far.
+Can bees take the heat? Exploring bumble bee responses to extreme heat in a changing climate USDA NIFA Postdoctoral Research | University of California Davis</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Fri, 14 Feb 2020 09:55:09 -0800</pubDate>
+      
+      <guid>/about/</guid>
+      <description>I am an ecologist and entomologist interested in how insects respond to changes in the landscape - specifically those related to large-scale global changes in agriculture and climate. I use modern ecoinformatics approaches to explore questions and patterns related to insect ecology and global change and then use lab and field experimentation to test theories and develop more robust, causal associations between changes in the landscape and those in insect behavior, populations, and communities.</description>
+    </item>
+    
+  </channel>
+</rss>
