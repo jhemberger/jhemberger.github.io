@@ -7,90 +7,69 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 24 Sep 2020 00:00:00 -0700</lastBuildDate>
-    
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Coding</title>
       <link>/categories/coding/</link>
       <pubDate>Thu, 24 Sep 2020 00:00:00 -0700</pubDate>
-      
       <guid>/categories/coding/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Workflow</title>
       <link>/categories/workflow/</link>
       <pubDate>Thu, 24 Sep 2020 00:00:00 -0700</pubDate>
-      
       <guid>/categories/workflow/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Writing</title>
       <link>/categories/writing/</link>
       <pubDate>Thu, 24 Sep 2020 00:00:00 -0700</pubDate>
-      
       <guid>/categories/writing/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>Bumble bee</title>
+      <title>Bumble Bee</title>
       <link>/categories/bumble-bee/</link>
       <pubDate>Thu, 09 Apr 2020 14:05:56 -0700</pubDate>
-      
       <guid>/categories/bumble-bee/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Experiments</title>
       <link>/categories/experiments/</link>
       <pubDate>Thu, 09 Apr 2020 14:05:56 -0700</pubDate>
-      
       <guid>/categories/experiments/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Tutorial</title>
       <link>/categories/tutorial/</link>
       <pubDate>Mon, 06 Apr 2020 16:05:56 -0700</pubDate>
-      
       <guid>/categories/tutorial/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Website</title>
       <link>/categories/website/</link>
       <pubDate>Mon, 06 Apr 2020 16:05:56 -0700</pubDate>
-      
       <guid>/categories/website/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>General</title>
       <link>/categories/general/</link>
       <pubDate>Tue, 18 Feb 2020 15:49:03 -0800</pubDate>
-      
       <guid>/categories/general/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Update</title>
       <link>/categories/update/</link>
       <pubDate>Tue, 18 Feb 2020 15:49:03 -0800</pubDate>
-      
       <guid>/categories/update/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

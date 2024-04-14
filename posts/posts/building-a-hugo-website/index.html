@@ -9,14 +9,13 @@
     <meta name="description" content="Jeremy&#39;s Personal Website">
     <meta name="keywords" content="blog,ecology,entomology,R,landscape">
 
-    <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Building a website using Github pages and Hugo"/>
+    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Building a website using Github pages and Hugo"/>
 <meta name="twitter:description" content="How to make a simple personal website for your academic profile"/>
 
     <meta property="og:title" content="Building a website using Github pages and Hugo" />
 <meta property="og:description" content="How to make a simple personal website for your academic profile" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/posts/building-a-hugo-website/" />
+<meta property="og:url" content="/posts/posts/building-a-hugo-website/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2020-04-06T16:05:56-07:00" />
 <meta property="article:modified_time" content="2020-04-06T16:05:56-07:00" />
 
@@ -57,7 +56,7 @@
     <link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.64.1" />
+    <meta name="generator" content="Hugo 0.124.1">
   </head>
 
   
@@ -228,59 +227,59 @@
 <p>One of the most confusing things about building a website for me has always been figuring out hosting - or who stores the files for your site.  Wordpress provided an easy way to pay a nominal fee to get someone else to worry about it for me.  However, using Wordpress forces you to lose some customizability and I don&rsquo;t think you learn as much that way.  Github pages is a nice way to learn a bit more about the &ldquo;under the hood&rdquo; operations that make a website work, while doing all of the annoying backend stuff of hosting the site, etc. You just need to build the site content and Github pages pretty much does the rest!</p>
 <h2 id="what-were-going-to-do">What we&rsquo;re going to do:</h2>
 <ul>
-<li><input disabled="" type="checkbox">Use the terminal to install Hugo</li>
-<li><input disabled="" type="checkbox">Initiate a website directory (folder) and monitor it with <code>git</code></li>
-<li><input disabled="" type="checkbox">Use terminal/Hugo to build a simple website</li>
-<li><input disabled="" type="checkbox">Add some basic content: a new page, a blog post</li>
-<li><input disabled="" type="checkbox">Build and test the site locally (using your computer as the web server)</li>
-<li><input disabled="" type="checkbox">Commit/push the changes you&rsquo;ve made to a Github repository</li>
-<li><input disabled="" type="checkbox">Some fancy scripting magic to build the site on Github pages</li>
+<li><input disabled="" type="checkbox"> Use the terminal to install Hugo</li>
+<li><input disabled="" type="checkbox"> Initiate a website directory (folder) and monitor it with <code>git</code></li>
+<li><input disabled="" type="checkbox"> Use terminal/Hugo to build a simple website</li>
+<li><input disabled="" type="checkbox"> Add some basic content: a new page, a blog post</li>
+<li><input disabled="" type="checkbox"> Build and test the site locally (using your computer as the web server)</li>
+<li><input disabled="" type="checkbox"> Commit/push the changes you&rsquo;ve made to a Github repository</li>
+<li><input disabled="" type="checkbox"> Some fancy scripting magic to build the site on Github pages</li>
 </ul>
 <p>Let&rsquo;s dig in&hellip;</p>
 <h2 id="1-install-hugo">1. Install Hugo</h2>
 <p>The first thing we need to do is to install Hugo onto your computer.</p>
 <p>Start by opening your terminal and type the following to install Hugo (you may need to first install <a href="https://brew.sh/" title="Homebrew">Homebrew</a>:</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">brew install hugo
-</code></pre></div><p>Tada! Easy, no?</p>
+<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>brew install hugo
+</span></span></code></pre></div><p>Tada! Easy, no?</p>
 <h2 id="2-create-a-new-hugo-site">2. Create a new Hugo site</h2>
 <p>Before we do this, let&rsquo;s change our working directory to wherever you want your website files to live on your computer.  Mine are in a folder within my documents.  For example, in terminal, enter:</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mkdir <span style="color:#2aa198">&#34;./Documents/my_new_website&#34;</span>
-</code></pre></div><p>to create a new directory called <code>my_new_website</code>.  You can then make this your working directory by entering:</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#b58900">cd</span> ./Documents/my_new_website/
-</code></pre></div><p>Cool! Your site will be created within this folder.  We can then use the basic template built into Hugo to create a new site.</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">hugo new site quickstart
-<span style="color:#586e75"># Change `quickstart` to whatever you&#39;d like to call your site</span>
-</code></pre></div><p>That will create a new site!  You&rsquo;ll see that, within your <code>my_new_website</code> directory, a new folder was created called <code>quickstart</code>. Inside that folder is the directory structure for the new site!</p>
+<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mkdir <span style="color:#2aa198">&#34;./Documents/my_new_website&#34;</span>
+</span></span></code></pre></div><p>to create a new directory called <code>my_new_website</code>.  You can then make this your working directory by entering:</p>
+<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#b58900">cd</span> ./Documents/my_new_website/
+</span></span></code></pre></div><p>Cool! Your site will be created within this folder.  We can then use the basic template built into Hugo to create a new site.</p>
+<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new site quickstart
+</span></span><span style="display:flex;"><span><span style="color:#586e75"># Change `quickstart` to whatever you&#39;d like to call your site</span>
+</span></span></code></pre></div><p>That will create a new site!  You&rsquo;ll see that, within your <code>my_new_website</code> directory, a new folder was created called <code>quickstart</code>. Inside that folder is the directory structure for the new site!</p>
 <p><img src="/images/blog/04_06_20/test_site_dir.png#center" alt="test_site_dir"></p>
 <h3 id="add-a-website-theme">Add a website theme</h3>
 <p>Now, let&rsquo;s add a theme to make the site look pretty.  If you&rsquo;d like to specify a different theme than the default (called &ldquo;Ananke&rdquo;), <a href="https://themes.gohugo.io/" title="Hugo themes">take a look at some</a> pre-built themes and download one.  You&rsquo;ll then need to drop that folder into the <code>themes</code> folder within your site directory.</p>
 <p>In this step, we&rsquo;re changing our working directory to the new <code>quickstart</code> folder and also creating a <code>git</code> repository to track all of the changes that we make to files in our project.</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#b58900">cd</span> quickstart
-git init
-git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke <span style="color:#586e75"># Ignore this command if you downloaded your own theme `.git` file and placed it in your themes folder within `./quickstart/themes`</span>
-</code></pre></div><p>Now we need to tell our website that we have a new theme that we want it to use.  The code below will make an adjustment to a parameter within the <code>config.toml</code> file that already exists in our project directory (be sure to change name of theme if you&rsquo;re not using ananke).</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#b58900">echo</span> <span style="color:#2aa198">&#39;theme = &#34;ananke&#34;&#39;</span> &gt;&gt; config.toml
-</code></pre></div><p>Sweet!  We have the start of a website. Now it&rsquo;s time to create some basic content.  We&rsquo;ll make a blog post and a new webpage.</p>
+<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#b58900">cd</span> quickstart
+</span></span><span style="display:flex;"><span>git init
+</span></span><span style="display:flex;"><span>git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke <span style="color:#586e75"># Ignore this command if you downloaded your own theme `.git` file and placed it in your themes folder within `./quickstart/themes`</span>
+</span></span></code></pre></div><p>Now we need to tell our website that we have a new theme that we want it to use.  The code below will make an adjustment to a parameter within the <code>config.toml</code> file that already exists in our project directory (be sure to change name of theme if you&rsquo;re not using ananke).</p>
+<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#b58900">echo</span> <span style="color:#2aa198">&#39;theme = &#34;ananke&#34;&#39;</span> &gt;&gt; config.toml
+</span></span></code></pre></div><p>Sweet!  We have the start of a website. Now it&rsquo;s time to create some basic content.  We&rsquo;ll make a blog post and a new webpage.</p>
 <h3 id="make-new-blog-postwebpage">Make new blog post/webpage</h3>
 <p>Creating content for Hugo requires you to write in Markdown. Don&rsquo;t worry - it&rsquo;s incredibly simple and will probably revolutionize how you write stuff, generally! I use Markdown now for pretty much everything now - I love it! :)</p>
 <p>Creating content is easy. The code below will create a new blog post in your <code>content</code> folder, within a subfolder called <code>posts</code>.</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">hugo new posts/my-first-post.md
-</code></pre></div><p>You can then open this file in any text editor (my personal favorite is Atom) and start writing away!  Check out <a href="https://www.markdownguide.org/basic-syntax/" title="Markdown syntax">this guide</a> for writing in Markdown.</p>
+<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new posts/my-first-post.md
+</span></span></code></pre></div><p>You can then open this file in any text editor (my personal favorite is Atom) and start writing away!  Check out <a href="https://www.markdownguide.org/basic-syntax/" title="Markdown syntax">this guide</a> for writing in Markdown.</p>
 <p>Each post/page you make will begin with some canned content called the &ldquo;header&rdquo;.  This provides some parameters to control your posts/pages. It will look something like this:</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">---
-title: &#34;Photography&#34;
-date: 2020-02-19T09:49:04-08:00
-draft: false
----
-</code></pre></div><p>Creating a new webpage is just as simple.</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">hugo new my-new-page.md
-</code></pre></div><h3 id="preview-your-website">Preview your website</h3>
+<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span>title: &#34;Photography&#34;
+</span></span><span style="display:flex;"><span>date: 2020-02-19T09:49:04-08:00
+</span></span><span style="display:flex;"><span>draft: false
+</span></span><span style="display:flex;"><span>---
+</span></span></code></pre></div><p>Creating a new webpage is just as simple.</p>
+<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new my-new-page.md
+</span></span></code></pre></div><h3 id="preview-your-website">Preview your website</h3>
 <p>So far, we&rsquo;ve only been working in Terminal and the file explorer. But what does our site actually look like??? Let&rsquo;s boot up a copy of it using our computer as the server and find out!</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">hugo server -D
-<span style="color:#586e75"># The -D here tells the command to include all draft posts/pages</span>
-</code></pre></div><p>A bunch of stuff will pop up in your terminal, but the important bit at the bottom tells you where to point your browser:</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">http://localhost:1313/
-</code></pre></div><p>Paste that link into your browser and behold your beautiful website!  This renders live, so each change you make and save will instantly appear (thus the &ldquo;localhost&rdquo; in the URL). But this isn&rsquo;t yet visible to the rest of the world!  Let&rsquo;s get this stuff up onto Github.</p>
+<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo server -D
+</span></span><span style="display:flex;"><span><span style="color:#586e75"># The -D here tells the command to include all draft posts/pages</span>
+</span></span></code></pre></div><p>A bunch of stuff will pop up in your terminal, but the important bit at the bottom tells you where to point your browser:</p>
+<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>http://localhost:1313/
+</span></span></code></pre></div><p>Paste that link into your browser and behold your beautiful website!  This renders live, so each change you make and save will instantly appear (thus the &ldquo;localhost&rdquo; in the URL). But this isn&rsquo;t yet visible to the rest of the world!  Let&rsquo;s get this stuff up onto Github.</p>
 <h3 id="adjust-some-configurations">Adjust some configurations</h3>
 <p>A lot of how your website functions is controlled by a file in your project directory called <code>config.toml</code>.  Open this up in your text editor to check it out.</p>
 <p>One chance to make right away is to change the URL parameter to <code>&quot;/&quot;</code>. This way, your site will take the URL of your Github pages repo. For more tips/what your config file contains, check out your theme&rsquo;s documentation or Github page.</p>
@@ -298,38 +297,37 @@ draft: false
 <h3 id="build-your-website-using-a-shell-script">Build your website using a shell script</h3>
 <p>OK, that was a lot of stuff. Now we need to actually build the site. We&rsquo;re going to do that by writing a shell script - a mini-program you can run to tell the computer to update and rebuild your website.</p>
 <p>First, create a file in your project directory called <code>deploy.sh</code>. You can do this with:</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">touch <span style="color:#2aa198">&#34;deploy.sh&#34;</span>
-</code></pre></div><p>Open this file up in a text editor, and paste in the following code.</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#719e07">#!/bin/sh
-</span><span style="color:#719e07"></span>
-<span style="color:#586e75"># If a command fails then the deploy stops</span>
-<span style="color:#b58900">set</span> -e
-
-<span style="color:#b58900">printf</span> <span style="color:#2aa198">&#34;\033[0;32mDeploying updates to GitHub...\033[0m\n&#34;</span>
-
-<span style="color:#586e75"># Build the project.</span>
-hugo <span style="color:#586e75"># if using a theme, replace with `hugo -t &lt;YOURTHEME&gt;`</span>
-
-<span style="color:#586e75"># Go To Public folder</span>
-<span style="color:#b58900">cd</span> public
-
-<span style="color:#586e75"># Add changes to git.</span>
-git add .
-
-<span style="color:#586e75"># Commit changes.</span>
-<span style="color:#268bd2">msg</span><span style="color:#719e07">=</span><span style="color:#2aa198">&#34;</span><span style="color:#2aa198">rebuilding site </span><span style="color:#719e07">$(</span>date<span style="color:#719e07">)</span><span style="color:#2aa198">&#34;</span>
-<span style="color:#719e07">if</span> <span style="color:#719e07">[</span> -n <span style="color:#2aa198">&#34;</span><span style="color:#268bd2">$*</span><span style="color:#2aa198">&#34;</span> <span style="color:#719e07">]</span>; <span style="color:#719e07">then</span>
-	<span style="color:#268bd2">msg</span><span style="color:#719e07">=</span><span style="color:#2aa198">&#34;</span><span style="color:#268bd2">$*</span><span style="color:#2aa198">&#34;</span>
-<span style="color:#719e07">fi</span>
-git commit -m <span style="color:#2aa198">&#34;</span><span style="color:#268bd2">$msg</span><span style="color:#2aa198">&#34;</span>
-
-<span style="color:#586e75"># Push source and build repos.</span>
-git push origin master
-
-</code></pre></div><p>Save the file and close your text editor.</p>
+<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>touch <span style="color:#2aa198">&#34;deploy.sh&#34;</span>
+</span></span></code></pre></div><p>Open this file up in a text editor, and paste in the following code.</p>
+<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#719e07">#!/bin/sh
+</span></span></span><span style="display:flex;"><span><span style="color:#719e07"></span>
+</span></span><span style="display:flex;"><span><span style="color:#586e75"># If a command fails then the deploy stops</span>
+</span></span><span style="display:flex;"><span><span style="color:#b58900">set</span> -e
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#b58900">printf</span> <span style="color:#2aa198">&#34;\033[0;32mDeploying updates to GitHub...\033[0m\n&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#586e75"># Build the project.</span>
+</span></span><span style="display:flex;"><span>hugo <span style="color:#586e75"># if using a theme, replace with `hugo -t &lt;YOURTHEME&gt;`</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#586e75"># Go To Public folder</span>
+</span></span><span style="display:flex;"><span><span style="color:#b58900">cd</span> public
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#586e75"># Add changes to git.</span>
+</span></span><span style="display:flex;"><span>git add .
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#586e75"># Commit changes.</span>
+</span></span><span style="display:flex;"><span><span style="color:#268bd2">msg</span><span style="color:#719e07">=</span><span style="color:#2aa198">&#34;rebuilding site </span><span style="color:#719e07">$(</span>date<span style="color:#719e07">)</span><span style="color:#2aa198">&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#719e07">if</span> <span style="color:#719e07">[</span> -n <span style="color:#2aa198">&#34;</span><span style="color:#268bd2">$*</span><span style="color:#2aa198">&#34;</span> <span style="color:#719e07">]</span>; <span style="color:#719e07">then</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#268bd2">msg</span><span style="color:#719e07">=</span><span style="color:#2aa198">&#34;</span><span style="color:#268bd2">$*</span><span style="color:#2aa198">&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#719e07">fi</span>
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#2aa198">&#34;</span><span style="color:#268bd2">$msg</span><span style="color:#2aa198">&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#586e75"># Push source and build repos.</span>
+</span></span><span style="display:flex;"><span>git push origin master
+</span></span></code></pre></div><p>Save the file and close your text editor.</p>
 <p>To run this script and build your site&hellip;</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">./deploy.sh <span style="color:#2aa198">&#34;a message for the commit&#34;</span>
-</code></pre></div><p>This will build your site on the <code>&lt;your_user_name&gt;.github.io</code> page! Usually it takes a couple of minutes for the site to build/rebuild.</p>
+<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>./deploy.sh <span style="color:#2aa198">&#34;a message for the commit&#34;</span>
+</span></span></code></pre></div><p>This will build your site on the <code>&lt;your_user_name&gt;.github.io</code> page! Usually it takes a couple of minutes for the site to build/rebuild.</p>
 <p>Now, anytime you make changes to your site, such as creating a new web page, a new blog post, adding images, etc., you&rsquo;ll want to first commit and push your changes, and then run the <code>deploy.sh</code> script rebuild your website.</p>
 <p>Congrats! you&rsquo;re now the proud owner of a personal website, hosted for free by Github pages! Keep in mind this tutorial is the bare minimum to get you started. Be sure to read your theme&rsquo;s documentation to fully leverage all of the built-in features and do some Googling to find plugins that can help you display content, etc. In future posts, I might feature how to install/use some of the tools that I use on my site.</p>
 <p>PSA: For me, this was a learning process. A lot of stuff broke/didn&rsquo;t work the first time, and I had to do a lot of Googling to troubleshoot issues and even re-start the project twice! Hang with it - it was so rewarding when I finally got things to work and was able to add neat new features to make my site look prettier and more interactive.</p>
@@ -353,8 +351,8 @@ git push origin master
 
 
         <div id="disqus_thread"></div>
-<script type="application/javascript">
-    var disqus_config = function () {
+<script>
+    window.disqus_config = function () {
     
     
     
@@ -418,7 +416,7 @@ git push origin master
     </main>
 
     
-<script type="application/javascript">
+<script>
 var doNotTrack = false;
 if (!doNotTrack) {
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -430,7 +428,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-
 
     
 

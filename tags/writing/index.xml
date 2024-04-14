@@ -7,18 +7,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 24 Sep 2020 00:00:00 -0700</lastBuildDate>
-    
-	<atom:link href="/tags/writing/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="/tags/writing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Writing your manuscript in R Markdown</title>
       <link>/posts/posts/r-markdown-manuscripts/</link>
       <pubDate>Thu, 24 Sep 2020 00:00:00 -0700</pubDate>
-      
       <guid>/posts/posts/r-markdown-manuscripts/</guid>
-      <description>I really don&amp;rsquo;t like the Microsoft Office Suite. With the exception of PowerPoint (which I can almost always get to do what I want), the remainder of the suite, especially Word and Excel (NO, THAT COLUMN IS NOT A DATE, and even if it is, DO NOT REFORMAT IT), can be quite frustrating to work with.</description>
+      <description>I really don&amp;rsquo;t like the Microsoft Office Suite. With the exception of PowerPoint (which I can almost always get to do what I want), the remainder of the suite, especially Word and Excel (NO, THAT COLUMN IS NOT A DATE, and even if it is, DO NOT REFORMAT IT), can be quite frustrating to work with.&#xA;For the last 6-7 years, I was beholden to doing most of my writing inside the Microsoft environment.</description>
     </item>
-    
   </channel>
 </rss>

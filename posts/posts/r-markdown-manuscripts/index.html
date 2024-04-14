@@ -9,14 +9,13 @@
     <meta name="description" content="Jeremy&#39;s Personal Website">
     <meta name="keywords" content="blog,ecology,entomology,R,landscape">
 
-    <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Writing your manuscript in R Markdown"/>
+    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Writing your manuscript in R Markdown"/>
 <meta name="twitter:description" content="A rough guide to migrating your writing workflow from Word"/>
 
     <meta property="og:title" content="Writing your manuscript in R Markdown" />
 <meta property="og:description" content="A rough guide to migrating your writing workflow from Word" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/posts/r-markdown-manuscripts/" />
+<meta property="og:url" content="/posts/posts/r-markdown-manuscripts/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2020-09-24T00:00:00-07:00" />
 <meta property="article:modified_time" content="2020-09-24T00:00:00-07:00" />
 
@@ -57,7 +56,7 @@
     <link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.64.1" />
+    <meta name="generator" content="Hugo 0.124.1">
   </head>
 
   
@@ -222,26 +221,26 @@
 <p>As far as why to chose RMarkdown, R and RStudio have all of the tools and packages you need to make the setup and transition to writing in markdown easy.</p>
 <h1 id="the-workflow">The workflow</h1>
 <p>Every time I start a new project in R, I do so in a skeleton directory that contains standardized folders to keep my business organized. An ongoing project looks something like this:</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">my_r_project
-  - project.Rproj
-  - analysis_archive
-  - code
-    * data_cleanup.Rmd
-    * data_analysis.Rmd
-  - data
-    - tabular_data
-      * mydata.csv
-    - spatial_data
-  - data_archive
-  - meeting_notes
-  - model_output
-  - model_plots
-  - ms_body
-    - ms_figs
-    * manuscript_draft.Rmd
-  - project_notes.Rmd
-  - project_readme.Rmd
-</code></pre></div><p>This directory structure lets me keep all things pertinent to a project in a single folder. Important to us right now, is the folders <code>ms_body</code>. Here, I keep all writing files (e.g., <code>manuscript_draft.Rmd</code>) and manuscript figures that get inserted into my Rmd documents.</p>
+<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>my_r_project
+</span></span><span style="display:flex;"><span>  - project.Rproj
+</span></span><span style="display:flex;"><span>  - analysis_archive
+</span></span><span style="display:flex;"><span>  - code
+</span></span><span style="display:flex;"><span>    * data_cleanup.Rmd
+</span></span><span style="display:flex;"><span>    * data_analysis.Rmd
+</span></span><span style="display:flex;"><span>  - data
+</span></span><span style="display:flex;"><span>    - tabular_data
+</span></span><span style="display:flex;"><span>      * mydata.csv
+</span></span><span style="display:flex;"><span>    - spatial_data
+</span></span><span style="display:flex;"><span>  - data_archive
+</span></span><span style="display:flex;"><span>  - meeting_notes
+</span></span><span style="display:flex;"><span>  - model_output
+</span></span><span style="display:flex;"><span>  - model_plots
+</span></span><span style="display:flex;"><span>  - ms_body
+</span></span><span style="display:flex;"><span>    - ms_figs
+</span></span><span style="display:flex;"><span>    * manuscript_draft.Rmd
+</span></span><span style="display:flex;"><span>  - project_notes.Rmd
+</span></span><span style="display:flex;"><span>  - project_readme.Rmd
+</span></span></code></pre></div><p>This directory structure lets me keep all things pertinent to a project in a single folder. Important to us right now, is the folders <code>ms_body</code>. Here, I keep all writing files (e.g., <code>manuscript_draft.Rmd</code>) and manuscript figures that get inserted into my Rmd documents.</p>
 <p>Generally, the process of writing a manuscript is pretty straight forward. Once you have drafts completed, you are able to compile your RMarkdown document (called &ldquo;knitting&rdquo; using the R package <code>knitr</code>) into a PDF, Word file, or HTML.</p>
 <h2 id="formatting-your-rmarkdown-manuscript">Formatting your RMarkdown manuscript</h2>
 <p>I won&rsquo;t go into too much detail of how to format your writing using Markdown, but rest assured it&rsquo;s extremely easy. Check out the following:</p>
@@ -252,42 +251,42 @@
 <p>This file shows you generally how you can structure an RMarkdown file. We can get rid of all of this except the top portion that is delimited by three dashes (&mdash;). This section is called the YAML (Yet another markup language) header.</p>
 <h2 id="whats-in-your-yaml">What&rsquo;s in your YAML?</h2>
 <p>Generally, the YAML header contains a bunch of settings to help control how your finished product is rendered, where your bibliography file lives, what citation style you&rsquo;re using, etc., etc. Below is the header from one of my current manuscripts.</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">---
-<span style="color:#719e07">title</span>: <span style="color:#2aa198">|
-</span><span style="color:#2aa198"> </span><span style="color:#2aa198"> </span><span style="color:#2aa198">**Patterns of agricultural intensification drive bumble bee occurrence in the North American Midwest**</span>
-<span style="color:#719e07">author</span>:
-- Jeremy Hemberger
-- Michael Crossley
-- Claudio Gratton
-<span style="color:#719e07">date</span>: <span style="color:#2aa198">&#34;`r format(Sys.time(), &#39;%B %d, %Y&#39;)`&#34;</span>
-<span style="color:#719e07">output</span>:
-  <span style="color:#719e07">word_document</span>: default
-  <span style="color:#719e07">pdf_document</span>:
-    <span style="color:#719e07">fig_caption</span>: yes
-    <span style="color:#719e07">keep_tex</span>: yes
-    <span style="color:#719e07">latex_engine</span>: pdflatex
-  <span style="color:#719e07">html_document</span>:
-    <span style="color:#719e07">df_print</span>: paged
-<span style="color:#719e07">fontfamily</span>: mathpazo
-<span style="color:#719e07">fontsize</span>: 11pt
-<span style="color:#719e07">geometry</span>: margin = 1in
-<span style="color:#719e07">header-includes</span>:
-- \usepackage{setspace}\doublespacing
-- \usepackage[left]{lineno}
-- \linenumbers
-- \usepackage{dcolumn}
-- \usepackage{caption}
-- \usepackage{float}
-- \usepackage{afterpage}
-- \usepackage{siunitx}
-- \usepackage{amsmath}
-<span style="color:#719e07">keywords</span>: Agricultural intensification, Bumble bees, bee decline, agroecosystems
-<span style="color:#719e07">bibliography</span>: ./library.bib
-<span style="color:#719e07">csl</span>: ./nature-conservation.csl
-<span style="color:#719e07">abstract</span>: <span style="color:#2aa198">|
-</span><span style="color:#2aa198"> </span><span style="color:#2aa198"> </span><span style="color:#2aa198">Recently documented insect declines suggest that agricultural expansion and productivity-focused intensification are a putative driver for the observed declines. However, this hypothesis has yet to be formally tested due to a lack of historical data on agricultural land-use change and insect taxa. Using large, spatiotemporal sets of bumble bee and agricultural records, we show that agricultural intensification, specifically an increase cropland extent and insecticides, as well as a decrease in crop richness and perennial habitat, are associated with a decrease in the occurrence of bumble bee species in the agriculturally intensive Midwest. Yet, we found positive associations between bumble bees and crop richness and pasture, even in areas where agriculture is spatially extensive. Our findings suggest that insect conservation and agricultural production may be compatible, with increasing in on-farm and landscape-level crop diversity, pasture, and reduction in insecticides predicted to have positive effects on bumble bees.</span>
----
-</code></pre></div><p>In this, I am telling R a bunch of information including:</p>
+<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span><span style="color:#268bd2">title</span>: |<span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">  **Patterns of agricultural intensification drive bumble bee occurrence in the North American Midwest**</span>  
+</span></span><span style="display:flex;"><span><span style="color:#268bd2">author</span>:
+</span></span><span style="display:flex;"><span>- Jeremy Hemberger
+</span></span><span style="display:flex;"><span>- Michael Crossley
+</span></span><span style="display:flex;"><span>- Claudio Gratton
+</span></span><span style="display:flex;"><span><span style="color:#268bd2">date</span>: <span style="color:#2aa198">&#34;`r format(Sys.time(), &#39;%B %d, %Y&#39;)`&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#268bd2">output</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#268bd2">word_document</span>: default
+</span></span><span style="display:flex;"><span>  <span style="color:#268bd2">pdf_document</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#268bd2">fig_caption</span>: <span style="color:#cb4b16">yes</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#268bd2">keep_tex</span>: <span style="color:#cb4b16">yes</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#268bd2">latex_engine</span>: pdflatex
+</span></span><span style="display:flex;"><span>  <span style="color:#268bd2">html_document</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#268bd2">df_print</span>: paged
+</span></span><span style="display:flex;"><span><span style="color:#268bd2">fontfamily</span>: mathpazo
+</span></span><span style="display:flex;"><span><span style="color:#268bd2">fontsize</span>: 11pt
+</span></span><span style="display:flex;"><span><span style="color:#268bd2">geometry</span>: margin = 1in
+</span></span><span style="display:flex;"><span><span style="color:#268bd2">header-includes</span>:
+</span></span><span style="display:flex;"><span>- \usepackage{setspace}\doublespacing
+</span></span><span style="display:flex;"><span>- \usepackage[left]{lineno}
+</span></span><span style="display:flex;"><span>- \linenumbers
+</span></span><span style="display:flex;"><span>- \usepackage{dcolumn}
+</span></span><span style="display:flex;"><span>- \usepackage{caption}
+</span></span><span style="display:flex;"><span>- \usepackage{float}
+</span></span><span style="display:flex;"><span>- \usepackage{afterpage}
+</span></span><span style="display:flex;"><span>- \usepackage{siunitx}
+</span></span><span style="display:flex;"><span>- \usepackage{amsmath}
+</span></span><span style="display:flex;"><span><span style="color:#268bd2">keywords</span>: Agricultural intensification, Bumble bees, bee decline, agroecosystems
+</span></span><span style="display:flex;"><span><span style="color:#268bd2">bibliography</span>: ./library.bib
+</span></span><span style="display:flex;"><span><span style="color:#268bd2">csl</span>: ./nature-conservation.csl
+</span></span><span style="display:flex;"><span><span style="color:#268bd2">abstract</span>: |<span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">  Recently documented insect declines suggest that agricultural expansion and productivity-focused intensification are a putative driver for the observed declines. However, this hypothesis has yet to be formally tested due to a lack of historical data on agricultural land-use change and insect taxa. Using large, spatiotemporal sets of bumble bee and agricultural records, we show that agricultural intensification, specifically an increase cropland extent and insecticides, as well as a decrease in crop richness and perennial habitat, are associated with a decrease in the occurrence of bumble bee species in the agriculturally intensive Midwest. Yet, we found positive associations between bumble bees and crop richness and pasture, even in areas where agriculture is spatially extensive. Our findings suggest that insect conservation and agricultural production may be compatible, with increasing in on-farm and landscape-level crop diversity, pasture, and reduction in insecticides predicted to have positive effects on bumble bees.</span>  
+</span></span><span style="display:flex;"><span>---
+</span></span></code></pre></div><p>In this, I am telling R a bunch of information including:</p>
 <ul>
 <li><code>Title</code>: what the manuscript title is</li>
 <li><code>Author</code>: Who wrote the damn thing</li>
@@ -297,19 +296,19 @@
 <li><code>geometry</code>: formatting of the page itself, in this case the margins</li>
 <li><code>header-includes</code>: these are a bunch of LaTeX libraries that I tell R to use to help format various aspects of the paper. For a basic RMarkdown manuscript, this can be ignored. I&rsquo;m just really picky.</li>
 <li><code>keywords</code>: if your template uses them, keywords for the manuscript</li>
-<li><code>bibliography</code>: this one is important, and it tells R where your bibliography file, called a bibtex file, lives in your project. In this case, I am telling it to look in the current folder (the &ldquo;./&quot;) for a file called <code>library.bib</code>.</li>
+<li><code>bibliography</code>: this one is important, and it tells R where your bibliography file, called a bibtex file, lives in your project. In this case, I am telling it to look in the current folder (the &ldquo;./&rdquo;) for a file called <code>library.bib</code>.</li>
 <li><code>link-citations</code>:</li>
 <li><code>csl</code>: this is also important. It is the path to the file that specifies which citation style you wish to use. You can download these from: <a href="https://www.zotero.org/styles">https://www.zotero.org/styles</a></li>
-<li><code>abstract</code> here&rsquo;s our first bit of writing! An option the YAML gives you is to include your abstract here. It isn&rsquo;t necessary, you could simply include it as part of your RMarkdown text, but here it is, block indented following a bar (&ldquo;|&rdquo;) to tell R that it&rsquo;s one paragraph.</li>
+<li><code>abstract</code> here&rsquo;s our first bit of writing! An option the YAML gives you is to include your abstract here. It isn&rsquo;t necessary, you could simply include it as part of your RMarkdown text, but here it is, block indented following a bar (&quot;|&quot;) to tell R that it&rsquo;s one paragraph.</li>
 </ul>
 <p>To start off, I would suggest making your YAML simple and including just the title, authors, output (use a simple <code>output: pdf</code>).</p>
 <h2 id="writing">Writing</h2>
 <p>After you get your YAML constructed, it&rsquo;s time to get writing! There are many ways to format different manuscript sections, etc., I stick to using headings which in Markdown look like this:</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"># Introduction
-## Subsection level 1
-### Subsection level 2
-#### Subsection level 3
-</code></pre></div><p>Renders to&hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span># Introduction
+</span></span><span style="display:flex;"><span>## Subsection level 1
+</span></span><span style="display:flex;"><span>### Subsection level 2
+</span></span><span style="display:flex;"><span>#### Subsection level 3
+</span></span></code></pre></div><p>Renders to&hellip;</p>
 <h1 id="introduction">Introduction</h1>
 <h2 id="subsection-level-1">Subsection level 1</h2>
 <h3 id="subsection-level-2">Subsection level 2</h3>
@@ -318,18 +317,18 @@
 <h2 id="citations">Citations</h2>
 <p>This is typically where Microsoft Word underperforms the most when writing. Fortunately, it is super easy to provide citations writing in Markdown using BibTeX.</p>
 <p>Most citation managers organize a BibTeX file for your library and store it along with your PDFs. This file contains all of the necessary information for building a citation in a standardized fashion. Each item in a BibTeX library contains a citation key; essentially a short code that you can insert into your writing to tell R when to include a particular citation formatted to your choosing when you knit your document. This key is what you&rsquo;ll need to find. It&rsquo;s usually automatically generated and stored within the paper metadata in your reference manager.</p>
-<p>For example, my short codes contain the authors last name and date of publication (e.g., <code>Hemberger.2020</code>). When writing, you can insert these citations by first inserting an <code>@</code> symbol, and placing them into square brackets for end-of-sentence citations (e.g., <code>[@Hemberger.2020]</code>). You can also use them in context by simply using the <code>@</code> symbol. (e.g., &ldquo;<code>@Hemberger.2020</code> found that&hellip;&quot;).</p>
+<p>For example, my short codes contain the authors last name and date of publication (e.g., <code>Hemberger.2020</code>). When writing, you can insert these citations by first inserting an <code>@</code> symbol, and placing them into square brackets for end-of-sentence citations (e.g., <code>[@Hemberger.2020]</code>). You can also use them in context by simply using the <code>@</code> symbol. (e.g., &ldquo;<code>@Hemberger.2020</code> found that&hellip;&rdquo;).</p>
 <p>To include all of your citations as a formatted reference section, you need simply write <code># References</code> as a section of your paper. R (and some LaTeX on the backend) will automatically collect your references and place them there in your format of choosing (the <code>.csl</code> file you specified in your YAML header).</p>
 <p>The best part about this is when you inevitably get rejected from your first journal of choice, reformatting your references is as simple as downloading the appropriate <code>.csl</code> file and changing the citation style specification in your YAML.</p>
 <h2 id="inserting-images">Inserting images</h2>
 <p>Inserting figures is also super easy. To do so, use the following markdown code:</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">![Image legend](path/to/image.png)
-</code></pre></div><p>I typically write my figure captions using standard markdown formatting below the image. Additionally, I usually wrap my images with <code>\newpage</code> and <code>\clearpage</code>, which is some LaTeX that creates page breaks around my images/captions so they each live on their own page. I also will use a width parameter to control the rough size of the image on the page. Usually, I keep it at 100% of the width so the figure is as big as possible. Altogether, an figure and caption in my RMarkdown document will look like this:</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">\newpage
-![](../ms_figs/fig_s2.png){ width=100% }
-**Figure S2:** Interaction plots for other study species. Each line represents the expected trend (with 95% confidence interval) of probability of occurrence over time in a county given: a value of proportion cropland (panel columns: mean ± 1 standard deviation) and number of crops (line color and type: mean ± 1 standard deviation) in that county.
-\clearpage
-</code></pre></div><h2 id="knitting-your-document">Knitting your document</h2>
+<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>![Image legend](path/to/image.png)
+</span></span></code></pre></div><p>I typically write my figure captions using standard markdown formatting below the image. Additionally, I usually wrap my images with <code>\newpage</code> and <code>\clearpage</code>, which is some LaTeX that creates page breaks around my images/captions so they each live on their own page. I also will use a width parameter to control the rough size of the image on the page. Usually, I keep it at 100% of the width so the figure is as big as possible. Altogether, an figure and caption in my RMarkdown document will look like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>\newpage
+</span></span><span style="display:flex;"><span>![](../ms_figs/fig_s2.png){ width=100% }
+</span></span><span style="display:flex;"><span>**Figure S2:** Interaction plots for other study species. Each line represents the expected trend (with 95% confidence interval) of probability of occurrence over time in a county given: a value of proportion cropland (panel columns: mean ± 1 standard deviation) and number of crops (line color and type: mean ± 1 standard deviation) in that county.
+</span></span><span style="display:flex;"><span>\clearpage
+</span></span></code></pre></div><h2 id="knitting-your-document">Knitting your document</h2>
 <p>Once you are ready to compile your markdown code into your output of choice, you need simply click the &ldquo;knit&rdquo; button in the code pane and wait for the magic to happen. Any errors will be visible in the R Markdown tab in your console pane (including missing references, LaTeX errors, etc.).</p>
 
       </div>
@@ -340,8 +339,8 @@
 
 
         <div id="disqus_thread"></div>
-<script type="application/javascript">
-    var disqus_config = function () {
+<script>
+    window.disqus_config = function () {
     
     
     
@@ -405,7 +404,7 @@
     </main>
 
     
-<script type="application/javascript">
+<script>
 var doNotTrack = false;
 if (!doNotTrack) {
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -417,7 +416,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-
 
     
 

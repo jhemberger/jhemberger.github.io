@@ -7,90 +7,69 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 24 Sep 2020 00:00:00 -0700</lastBuildDate>
-    
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>RMarkdown</title>
       <link>/tags/rmarkdown/</link>
       <pubDate>Thu, 24 Sep 2020 00:00:00 -0700</pubDate>
-      
       <guid>/tags/rmarkdown/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Writing</title>
       <link>/tags/writing/</link>
       <pubDate>Thu, 24 Sep 2020 00:00:00 -0700</pubDate>
-      
       <guid>/tags/writing/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>COVID</title>
       <link>/tags/covid/</link>
       <pubDate>Thu, 09 Apr 2020 14:05:56 -0700</pubDate>
-      
       <guid>/tags/covid/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Rearing</title>
       <link>/tags/rearing/</link>
       <pubDate>Thu, 09 Apr 2020 14:05:56 -0700</pubDate>
-      
       <guid>/tags/rearing/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Rigs</title>
       <link>/tags/rigs/</link>
       <pubDate>Thu, 09 Apr 2020 14:05:56 -0700</pubDate>
-      
       <guid>/tags/rigs/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Atom</title>
       <link>/tags/atom/</link>
       <pubDate>Mon, 06 Apr 2020 16:05:56 -0700</pubDate>
-      
       <guid>/tags/atom/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Hugo</title>
       <link>/tags/hugo/</link>
       <pubDate>Mon, 06 Apr 2020 16:05:56 -0700</pubDate>
-      
       <guid>/tags/hugo/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Shell</title>
       <link>/tags/shell/</link>
       <pubDate>Mon, 06 Apr 2020 16:05:56 -0700</pubDate>
-      
       <guid>/tags/shell/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Welcome</title>
       <link>/tags/welcome/</link>
       <pubDate>Tue, 18 Feb 2020 15:49:03 -0800</pubDate>
-      
       <guid>/tags/welcome/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

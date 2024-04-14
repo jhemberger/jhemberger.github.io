@@ -7,45 +7,34 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 24 Sep 2020 00:00:00 -0700</lastBuildDate>
-    
-	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Writing your manuscript in R Markdown</title>
       <link>/posts/posts/r-markdown-manuscripts/</link>
       <pubDate>Thu, 24 Sep 2020 00:00:00 -0700</pubDate>
-      
       <guid>/posts/posts/r-markdown-manuscripts/</guid>
-      <description>I really don&amp;rsquo;t like the Microsoft Office Suite. With the exception of PowerPoint (which I can almost always get to do what I want), the remainder of the suite, especially Word and Excel (NO, THAT COLUMN IS NOT A DATE, and even if it is, DO NOT REFORMAT IT), can be quite frustrating to work with.</description>
+      <description>I really don&amp;rsquo;t like the Microsoft Office Suite. With the exception of PowerPoint (which I can almost always get to do what I want), the remainder of the suite, especially Word and Excel (NO, THAT COLUMN IS NOT A DATE, and even if it is, DO NOT REFORMAT IT), can be quite frustrating to work with.&#xA;For the last 6-7 years, I was beholden to doing most of my writing inside the Microsoft environment.</description>
     </item>
-    
     <item>
       <title>Bumble bee experiments in lockdown</title>
       <link>/posts/posts/macgyver-bumblebee-experiments/</link>
       <pubDate>Thu, 09 Apr 2020 14:05:56 -0700</pubDate>
-      
       <guid>/posts/posts/macgyver-bumblebee-experiments/</guid>
-      <description>The chaos brought about by the global coronavirus pandemic has not only claimed lives, it has disrupted experiments in labs across the world. Many folks have been forced to scrap entire experiments, field seasons, and I&amp;rsquo;m sure, pursuit of their degree*. This sucks a lot, but it is a necessary step to ensure we reduce COVID spread and flatten the curve.</description>
+      <description>The chaos brought about by the global coronavirus pandemic has not only claimed lives, it has disrupted experiments in labs across the world. Many folks have been forced to scrap entire experiments, field seasons, and I&amp;rsquo;m sure, pursuit of their degree*. This sucks a lot, but it is a necessary step to ensure we reduce COVID spread and flatten the curve.&#xA;Some scientists can thankfully carry on their pieces of work at home or in back yards, including those of us who study bumble bees.</description>
     </item>
-    
     <item>
       <title>Building a website using Github pages and Hugo</title>
       <link>/posts/posts/building-a-hugo-website/</link>
       <pubDate>Mon, 06 Apr 2020 16:05:56 -0700</pubDate>
-      
       <guid>/posts/posts/building-a-hugo-website/</guid>
-      <description>If your situation is at all similar to mine right now, the COVID pandemic has greatly impacted day-to-day research operations and probably has had an impact on your productivity. Many of the tasks I queued up are now pushed way back, and there is a void of time that needs filling - preferably with something other than Netflix and binge-snacking&amp;hellip;</description>
+      <description>If your situation is at all similar to mine right now, the COVID pandemic has greatly impacted day-to-day research operations and probably has had an impact on your productivity. Many of the tasks I queued up are now pushed way back, and there is a void of time that needs filling - preferably with something other than Netflix and binge-snacking&amp;hellip;&#xA;So, why not build a website for yourself (or a project you are working on)!</description>
     </item>
-    
     <item>
       <title>Welcome to the new digs!</title>
       <link>/posts/posts/welcome/</link>
       <pubDate>Tue, 18 Feb 2020 15:49:03 -0800</pubDate>
-      
       <guid>/posts/posts/welcome/</guid>
       <description>Hello! Welcome to my newly deployed website. It&amp;rsquo;s long been a project on my to-do list to migrate from Wordpress to something a bit less clunky, more simple, and that would help me learn more about coding for the web. I finally gathered (read: made) the time to sit down and write some code and deploy this new site via Hugo. In fact, I think I&amp;rsquo;ll make this endeavor the topic of a soon-to-be-written blog post.</description>
     </item>
-    
   </channel>
 </rss>
